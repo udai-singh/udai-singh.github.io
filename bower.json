@@ -1,0 +1,31 @@
+{
+  "name": "My GitHub Page",
+  "version": "1.0.0",
+  "description": "My GitHub page",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "udai-singh",
+    "udai",
+    "singh",
+    "github"
+  ],
+  "authors": [
+    "Udai Singh"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "angular": "~1.4.7",
+    "jasny-bootstrap": "^3.1.3"
+  }
+}
