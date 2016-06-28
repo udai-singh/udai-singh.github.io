@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+    <title>Welcome!</title>
+        <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="app/styles/mystyles.css" rel="stylesheet">
+    <link href="app/styles/scrolling-nav.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-controller="MainController">
+  <!-- Feedback modal starts here -->
+    <div class="modal fade" id="feedbackModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Feedback</h4>
+                </div>
+                <div class="modal-body">
+                  Coming soon!
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feedback modal ends here -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#"><img src="img/logo.png" height=30 width=41></img></a> -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <!-- <a data-target="#loginModal" data-toggle="modal" href="#"> -->
+                        <a href="#" id="loginLink">
+                            <span class="glyphicon glyphicon-log-in"></span>
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row row-content">
+          <img src="images/udai_new_headshot.JPG" class="img-responsive img-circle center-block" width="100">
+        </div>
+        <div class="row row-content text-center">
+          <p>
+            <h3>Udai Singh</h3>
+          </p>
+          <p>
+            Technology Professional
+          </p>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="container">
+
+      <div class="col-xs-12 col-sm-10 col-sm-push-1">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">About Me</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Skill Set</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Experience</a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="home">
+          <div class="col-xs-12 col-sm-10 col-sm-push-1">
+            <div class="row row-content">
+              <p>
+                Hello and welcome!
+              </p>
+              <p>
+                I am a Technology Analyst at Bank of America, working towards the development and support of Tier-1 database applications
+                and mission-critical ETL and batch processes in the Consumer Credit Card space.
+                My responsibilities on the job include designing and developing new data extraction and transformation routines, developing
+                database objects including tables, indexes and stored procedures.
+              </p>
+              <p>
+                Before joining Bank of America, I worked for Accenture as a Software Engineer Consultant for 2 years, working with AT&T to enhance and
+                maintain their primary repository for information systems management.
+              </p>
+              <p>
+                I have a Master's degree in Management Information Systems from the University of Illinois at Chicago, and a Bachelor's in Engineering
+                degree from the University of Mumbai.
+              </p>
+              <p>
+                I enjoy developing front-end user interfaces as a hobby, and have been working on a couple of projects that I would love you to check out!
+                These pages have been developed using HTML5, CSS 3.0, Bootstrap 3 and AngularJS.
+                <br>
+                I have also recently started exploring the field of data analytics and finding patterns in datasets, and am currently learning data
+                visualization tools in order to brings these patterns to life. I hope to have something on this for you very soon.
+                <br>
+                In the meanwhile, please take a moment to visit my projects and provide your valuable feedback.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">
+          <div class="col-xs-12 col-sm-10 col-sm-push-1">
+
+            <div class="row row-content">
+              <br>
+              <dl class="dl-horizontal">
+                <dt style="text-align:left"><u>Skills</u></dt>
+                <dd></dd>
+                <br>
+                <dt style="text-align:left">Programming</dt>
+                <dd>Java, JavaScript, SQL, PL/SQL, Bash scripting</dd>
+                <dt style="text-align:left">Databases and ETL</dt>
+                <dd>Oracle, IBM Infosphere DataStage </dd>
+                <dt style="text-align:left">Web Technologies</dt>
+                <dd>HTML5, CSS 3.0, AngularJS, Node.js, Bower</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="messages">C</div>
+        <div role="tabpanel" class="tab-pane fade" id="settings">D</div>
+      </div>
+
+
+    </div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app/scripts/jquery.easing.min.js"></script>
+<script src="app/scripts/scrolling-nav.js"></script>
+<script src="app/scripts/app.js"></script>
+
+</body>
+
+</html>
