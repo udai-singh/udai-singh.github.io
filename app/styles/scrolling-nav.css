@@ -39,32 +39,35 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    min-height: 100%;
+
     height: auto;
     padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #eee;
 }
 
 .projects-section {
-    min-height: 100%;
     height: auto;
-    padding-top: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
     background: #fff;
 }
 
 .skills-section {
-    min-height: 100%;
+
     height: auto;
     padding-top: 80px;
+    padding-bottom: 80px;
   /*  text-align: center; */
     background: #eee;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
     background: #fff;
 }
