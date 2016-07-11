@@ -65,6 +65,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
+    min-height: 100%;
     height: auto;
     padding-top: 80px;
     padding-bottom: 80px;
